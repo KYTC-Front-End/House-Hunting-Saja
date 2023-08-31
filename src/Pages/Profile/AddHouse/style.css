@@ -1,0 +1,26 @@
+
+
+.divnum {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.location {
+    width: 250px;
+}
+
+.category {
+    width: 250px;
+}
+
+
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+border-radius: 25px !important;
+}
+
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 25px !important;
+}

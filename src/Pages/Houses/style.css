@@ -1,0 +1,104 @@
+
+
+
+.hero-searchInput{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  width:40vw;
+  padding: 13px;
+  border-radius: 50px;
+  border:2px solid #2A5555;   
+}
+
+.serach-btn{
+  position: absolute;
+  border: none;
+  height: 35px;
+  right:310px;
+  bottom: 2px;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+
+}
+.searchicon{
+  color:#2A5555;
+}
+
+
+.searchhh{
+  position:relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.herosearch {
+  border: 2px solid #E6E6E6;
+}
+
+
+
+.filter {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 25px !important;
+  width: 100% !important;
+}
+
+.containerhero {
+  padding-top: 4em !important;
+}
+
+.containerhero span {
+  color: #EB9235 !important;
+}
+
+.css-187mznn-MuiSlider-root {
+  color:#7D7D7D !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .hero-searchInput{
+    width:100%;
+    padding: 13px;
+  }
+
+  .serach-btn{
+    right:0px;
+    bottom: 0px;
+  }
+  .filter {
+    padding-top: 2em;
+    flex-direction: column;
+  }
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    width: 100% !important;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .hero-searchInput{
+    width:70%;
+    padding: 13px;
+  }
+
+  .serach-btn{
+    right:120px;
+    bottom: 0px;
+  }
+}

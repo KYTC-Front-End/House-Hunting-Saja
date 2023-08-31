@@ -1,0 +1,36 @@
+
+
+.img{
+  width: 80px;
+  height: 80px;
+}
+
+
+.profileicon {
+  color:#EB9235 !important ;
+}
+
+
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+ .responsive {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #2A5555 !important;
+}
+
+.responsiveh{
+  font-size: 25px !important;
+  color: white !important;
+}
+
+.logout{
+  color: red !important;
+  background-color: white !important;
+}

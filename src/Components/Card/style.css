@@ -1,0 +1,36 @@
+.cardActions{
+  display: flex;
+  justify-content: space-around;
+}
+
+.CardContent{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detailsCardBox{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.detailsCard{
+  display: flex;
+  align-items: center;
+}
+
+.CardContentTitle{
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsLink{
+  width: 62%;
+  background-color: #EB9235;
+  color: #fff;
+  padding: 9px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}

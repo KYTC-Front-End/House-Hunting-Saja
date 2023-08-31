@@ -1,0 +1,56 @@
+
+
+.btn-Dialog-Cancel {
+    background: #c1c1c1 !important;
+    color: white !important;
+}
+
+.btn-Dialog-Cancel:hover,
+.btn-Dialog-Cancel:focus {
+    background: #a8a8a8 !important;
+}
+
+
+.btn-Dialog-Delete {
+    background: red !important;
+    color: white !important;
+}
+
+.btn-Dialog-Delete:hover,
+.btn-Dialog-Delete:focus {
+    background: #ee3535 !important;
+}
+
+
+.css-hlj6pa-MuiDialogActions-root {
+    justify-content: center !important;
+}
+
+
+.MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root {
+    font-size: 18px !important;
+    color: #a8a8a8 !important;
+    text-align: center !important;
+}
+
+.icon-Dialog {
+    width: 4em !important;
+    height: 4em !important;
+    color: #ee3535 !important;
+    margin-left: 5.4em !important;
+
+}
+
+
+
+.btn-Dialog-Updat {
+    background: #2A5555 !important;
+    color: white !important;
+}
+
+.icon-Dialog-edit {
+    width: 4em !important;
+    height: 4em !important;
+    color: #2A5555 !important;
+    margin-left: 5.4em !important;
+}

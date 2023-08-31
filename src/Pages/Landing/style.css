@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.root {
+  width: 85%;
+  padding-bottom: 3em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5em;
+  min-height: 450px;
+  background-image: linear-gradient(
+      rgba(42, 85, 85, 0.7),
+      rgba(42, 85, 85, 0.7)
+    ),
+    url(../../Utils/images/hero.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.css-11lq3yg-MuiGrid-root {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5em !important;
+}
+
+.herotext {
+  color: white;
+  text-align: center;
+}
+
+.housesSection {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2a5555;
+  border-bottom: 3px solid #2a5555;
+  margin-left: 3em;
+  text-align: center;
+}
+
+.herosearch {
+  border-radius: 20px;
+  background: #f0f0f0;
+  width: 600px;
+  border: none;
+  outline: none;
+  
+}
+
+.css-epupbn-MuiGrid-root {
+  text-align: center;
+}
+
+.herosearch svg {
+  color: #2a5555;
+  font-size: 2em;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .css-11lq3yg-MuiGrid-root {
+    padding-bottom: 0em !important;
+  }
+
+  .herosearch {
+    display: none !important;
+  }
+
+  .herotext {
+    font-size: 2em !important;
+  }
+
+  .css-md5urv-MuiTypography-root{
+    margin-left: 174px !important;
+    width: 150px !important;
+    height: 84px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
+    display: none !important;
+  }
+
+  .css-md5urv-MuiTypography-root {
+    padding-right: 20em !important;
+  }
+
+  .css-md5urv-MuiTypography-root img {
+      width: 80px;
+      height: 80px;
+  }
+}

@@ -1,0 +1,23 @@
+
+
+
+.imgnotfound {
+  padding-top:8em;
+  width: 50%;
+  height: 30%;
+  justify-content: center;
+}
+
+.divfound {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center !important;
+}
+
+
+ .buttonnotfound {
+ background-color: #EB9235;
+ color: white;
+} 
